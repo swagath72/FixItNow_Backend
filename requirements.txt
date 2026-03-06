@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+python-jose
+passlib[bcrypt]
+pydantic
+fastapi-mail
+python-dotenv
+python-multipart
+razorpay
