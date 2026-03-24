@@ -59,7 +59,7 @@ class TechnicianProfile(Base):
     experience = Column(String(100), nullable=True)
     service_radius = Column(String(100), default="Current Range: 15 miles")
     working_hours = Column(String(100), default="9:00 AM - 6:00 PM (Mon-Sat)")
-    verification_status = Column(String(100), default="Identity & License: VERIFIED")
+    verification_status = Column(String(100), default="pending")
     payout_settings = Column(String(100), default="Next Payout: Feb 20, 2026")
     is_online = Column(String(50), default="true")
     rating = Column(String(50), default="5.0")
